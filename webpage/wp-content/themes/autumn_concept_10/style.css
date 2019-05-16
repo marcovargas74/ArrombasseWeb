@@ -1,0 +1,174 @@
+/*  
+Theme Name: Autumn Concept
+Theme URI: http://www.edmerritt.com/
+Description: Autumn Concept 1.0<br /> A clean, modern theme whose colour scheme can be customised without altering any images. Simply edit colours in the CSS via the Wordpress interface.<br />Features: Widget support; colour schemes; collapsable layout; a choice of five banner images; drop down menus; accessible code... <br /><a href="http://edmerritt.com/wordpress/?page_id=49">Usage Instructions</a><br />You might also like my other theme <a href="http://themes.wordpress.net/columns/2-columns/1030/ocean-mist-10/">Ocean Mist</a>
+Version: 1.0
+Author: Ed Merritt
+Author URI: http://www.edmerritt.com/
+*/
+
+/* COLOUR SCHEME 
+____________________________________________________________________________
+Edit these to alter the colour scheme of the theme.
+*/
+body {color: #3a4032;}
+#container, #nav li ul li {background-color: #dce7a2;}
+#topbar {background-color: #4b7c44;}
+#footer {background-color: #4b7c44;}
+#mainpicinner {height: 250px; background: url(images/mainpic01.jpg) top left no-repeat #fff; border: 1px solid #fff;}
+/* typography */
+#logo a {color: #3a4032;}
+.textbkg {border-left: 4px solid #ebf0cf;}
+.textbkg span {background: #ebf0cf; outline: solid 2px #ebf0cf; -moz-outline: solid 2px #ebf0cf;}
+h2 {color: #3a4032;}
+.entry h2 a {color: #3a4032;}
+h3 {color: #3a4032;}
+p {}
+.date {background: #4b7c44;}
+.dateDay {color: #fff;}
+.dateMonth {color: #ebf0cf;}
+.dateYear {color: #ebf0cf;}
+#topbar p, #footer p {color: #92a781;}
+blockquote {border-left: 10px solid #b0b984; background: #cfdd85; }
+code {color: #003399;}
+/* links */
+a {color: #18700a;}
+#topbar a, #footer a {color: #ebf0cf;}
+/* modules and widgets */
+#wp-calendar td {background: #cfdd85;}
+#flickr a {border: 4px solid #b0b984; background: #fff;}
+#flickr a:hover {border-color: #3a4032;}
+/* forms */
+#topbar .field, #topbar .openid_url_sidebar {background: #2d4a28 !important; color: #fff!important; border: none !important;}
+/* buttons */
+.comments a {background: url(images/comments_left.png) top left no-repeat; color: #3a3e3e;}
+.comments span {background: url(images/comments_right.png) top right no-repeat;}
+/* Nav */
+#nav > li:hover {background: #cfdd85;}
+#nav li ul li a {background: #cfdd85; color: #3a4032;}
+#nav li ul li a:hover {border-left: 3px solid #18700a; color: #18700a;}
+
+
+
+
+
+
+/* GENERAL STYLES
+____________________________________________________________________________
+Probably best not to edit these unless you know what you're doing
+*/
+
+/* layout */
+* {font-size: 100%; margin: 0; padding: 0; line-height: 1.4em;}
+body {position: relative; background: #1f1f1f; font: 70% Verdana, Arial, Helvetica, sans-serif; text-align: center; letter-spacing: 0;}
+#container {float: left; display: block; width: 100%;}
+#topbar {float: left; display: block; width: 100%; background-image: url(images/topbar.png); background-position: top; background-repeat: repeat-x; text-align: left; padding: 13px 0 6px 0;}
+#topbar div {padding-bottom: 0;}
+#header {float: left; display: block; width: 100%; background-image: url(images/header.png); background-position: top; background-repeat: repeat-x; text-align: left;}
+#content {float: left; display: block; width: 100%; text-align: left;}
+#related {float: left; display: block; width: 100%; background-image: url(images/related.png); background-position: top; background-repeat: repeat-x; text-align: left;}
+#footer {float: left; display: block; width: 100%; background-image: url(images/footer.png); background-position: top; background-repeat: repeat-x; text-align: left; padding: 13px 0 6px 0;}
+
+.cols01 {float: left; display: block; width: 280px; padding: 0 10px 48px 10px;}
+.cols02 {float: left; display: block; width: 580px; padding: 0 10px 48px 10px;}
+.cols03 {float: left; display: block; width: 880px; padding: 0 10px;}
+.center {text-align: center;}
+
+.box01 {display: block; max-width: 900px; margin: 0 auto; clear: both;}
+.left {float: left; clear: both;}
+.right {float: right;}
+
+#mainpic {clear: both; padding: 9px; margin: 0 10px; background: url(images/1x1_20pc.png) top left;}
+#mainpicinner {display: block; width: auto;}
+
+.entry {float: left; width: 100%; clear: both; margin: 24px 0 0 0;}
+.aComment {float: left; width: 100%; clear: both; margin: 0 0 12px 0;}
+.aComment:last-child {background: none;}
+.aComment h4 {margin: 0;}
+.aComment h4 img {display: none;}
+.aComment .textbkg {margin: 0 0 6px 0;}
+
+/* navigation */
+#nav {float: left; position: relative; display: block; width: 100%; list-style: none; margin: 3px 0 0 0; padding: 0 0 7px 0; background: url(images/underline.png) bottom repeat-x;}
+#nav li {float: left; position: relative; display: inline;}
+#nav li a {float: left; position: relative; display: inline; padding: 8px 10px; z-index: 100;}
+#nav li ul {display: none; position: absolute; left: -3px; padding: 3.45em 0 0 0; z-index: 90; margin: 0;}
+#nav li ul li {display: block; padding: 0 3px 1px 3px;}
+#nav li ul li.lastchild {padding-bottom: 3px;}
+#nav li ul li a {display: block; width: 17em; padding: 2px 10px; font-weight: normal;}
+#nav li ul li a:hover {padding-left: 7px;}
+#nav li:hover ul {display: block;}
+
+
+/* typography */
+#logo {margin: 32px 0 0 0;}
+#logo a {font: bold 3em Arial, Helvetica, sans-serif; text-decoration: none; letter-spacing: -2px;}
+.textbkg span {padding: 0 4px 0 0; overflow: visible;}
+h2 {font: bold 2.5em Arial, Helvetica, sans-serif; letter-spacing: -1px;}
+.pageH2 {margin: 0 0 24px 0;}
+h3 {font: bold 1.4em Arial, Helvetica, sans-serif; padding: 0 0 10px 0; margin: 24px 0 12px 0; background: url(images/underline.png) bottom repeat-x;}
+h3#comments {margin-bottom: 24px;}
+h3#respond {float: left; clear: both; display: block; width: 100%;}
+.archive h3 {background: none; margin: 0 0 -7px 0;}
+h4 {font: 1.3em Arial, Helvetica, sans-serif; margin: 0 0 12px 0;}
+.entry h2 {padding: 6px 0 0 0;}
+.entry .textbkg span a {font-weight: normal;}
+p {margin: 0 0 24px 0;}
+blockquote {padding: 10px 10px 1px 10px; margin: 0 0 24px 0;}
+code {position: relative; left: 0; font: 1em "Courier New", Courier, mono; }
+.cols01 ul, .cols02 ul {margin: 0 0 24px 14px;}
+.cols01 ol, .cols02 ol {margin: 0 0 24px 21px;}
+.cols01 ul ul, .cols02 ul ul, .cols01 ol ul, .cols02 ol ul {margin: 0 0 0 14px;}
+.cols01 ol ol, .cols02 ol ol, .cols01 ul ol, .cols02 ul ol {margin: 0 0 0 21px;}
+#topbar p, #footer p {margin-bottom: 12px;}
+.date {float: right; width: 6.3em; height: 6.3em;}
+.dateDay {display: block; text-align: right; margin: 5px 10px 0 0; font: bold 2.4em Arial, Helvetica, sans-serif;}
+.dateMonth {display: block; text-align: right; margin: 2px 10px 0 0; font: 8px Tahoma, Arial, Helvetica, sans-serif; text-transform: uppercase;}
+.dateYear {display: block; text-align: right; margin: -3px 10px 0 0; font: 8px Tahoma, Arial, Helvetica, sans-serif; text-transform: uppercase;}
+.comments {float: left; clear: both; display: inline; width: 100%;}
+.comments a {float: left; display: inline; padding: 4px 0 5px 71px; font-weight: bold; font-size: 80%;}
+.comments span {float: left; display: inline; background: url(images/comments_right.png) top right no-repeat; width: 10px; height: 22px; overflow: hidden;}
+.archive .comments {margin-top: -46px;}
+ul {margin: 0 0 24px 12px;}
+ul ul {margin-bottom: 0;}
+img {float: left; margin: 0 12px 12px 0;}
+.wp-smiley {float: none; margin: 0;}
+
+/* links */
+a {font-weight: bold; text-decoration: none;}
+#topbar a {position: relative; top: 2px; text-decoration: underline;}
+#footer a {font-weight: normal;}
+
+.pageNav, .pageNav2 {float: left; width: 100%; margin-top: 12px;}
+.pageNext span, .pagePrev span {display: none;}
+.pagePrev {float: left; display: block; width: 58px; height: 22px; background: url(images/prev.png) 50% 50% no-repeat;}
+.pageNext {float: right; display: block; width: 58px; height: 22px; background: url(images/next.png) 50% 50% no-repeat;}
+
+
+/* forms */
+.field, .commentform_openid, #securitycode {width: 204px; padding: 4px 3px !important; margin: 0 5px 7px 0; background: #fff !important; border: 1px solid #959586; color: #4f4f4c;}
+select {width: 280px; margin: 0 0 7px 0; color: #3a3e3e;}
+select option {padding: 1px;}
+#commentform {display: block;}
+#commentform p {display: block; width: 100%; margin: 0 0 5px 0;}
+#commentform p label {position: relative; top: -8px;}
+#comment {width: 571px; padding: 4px 3px; border: 1px solid #959586; font: 1em Verdana, Arial, Helvetica, sans-serif; color: #4f4f4c;}
+#searchform2 {}
+#searchform2 div {}
+#topbar li {list-style: none;}
+
+#flickr_badge_uber_wrapper {margin: 0 0 24px 0;}
+.flickrlink {text-transform: lowercase;}
+.flickrlink span {color: #ff0084;}
+#flickr {float: left;}
+#flickr img {border: none;}
+#flickr a {float: left;}
+.flickr_badge_image img {float: left; margin: 1px;}
+#flickr div {float: left; margin: 0 10px 10px 0;}
+#flickr div#flickr_badge_image3, #flickr div#flickr_badge_image6 {margin-right: 0;}
+
+#wp-calendar {width: 100%; text-align: center;}
+#wp-calendar .pad, #wp-calendar #next, #wp-calendar #prev {background: none;}
+
+
+

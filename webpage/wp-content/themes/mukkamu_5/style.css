@@ -1,0 +1,989 @@
+/* CSS Document */
+
+/*
+
+	Theme Name: mukkamu
+
+	Theme URI: http://www.mukkamu.com
+
+	Description: Nice WP Theme Mukkamu is 2 columns, widget ready, theme with right sidebar. 
+
+	Version: 1.5
+
+	Author: Mu
+
+	Author URI: http://www.tagtagweb.com
+
+
+
+
+Released under the <a href="http://www.opensource.org/licenses/gpl-license.php">GPL</a>.
+
+
+
+*/
+
+
+
+
+
+body {
+
+	margin: 0px;
+
+	padding: 0px;
+
+	color: #b6b6b6;
+
+	font-style:normal; font-variant:normal; font-weight:normal; line-height: 18px; font-size: 12px; font-family: "Trebuchet Ms", "Lucida Grande", sans-serif;
+	background-color: #1d1d1d;
+}
+
+#wrap {
+
+	width: 800px;
+
+	overflow: hidden;
+
+	position:relative;
+
+	margin: 0px auto;
+
+    background: #000;
+
+}
+
+#content {
+
+	width: 550px;
+
+	float: left;
+
+	display:inline;
+
+	text-align: justify;
+
+	padding: 10px;
+
+	margin: 8px;
+
+}
+
+#navig {
+
+	height: 49px;
+
+	width: 790px;
+
+	margin-right: auto;
+
+	margin-left: auto;
+
+}
+
+
+
+#sidebar {
+
+	width: 170px;
+
+	float: right;
+
+	line-height: 1.5em;
+
+	display:inline;
+
+	margin: 8px 8px 8px 0px;
+
+	padding: 10px;
+
+	font-size:10px;
+
+}
+
+#pages h1{
+
+	margin:0px;
+
+	padding:0px;
+
+}
+
+#pages h1 a{
+
+	text-transform:uppercase;
+
+	text-decoration:none;
+
+	color:#ccc;
+
+	font: 15px Arial, Helvetica, sans-serif;
+
+	margin:0px;
+
+	padding:13px 0px 0px 10px;
+
+	letter-spacing: -1px;
+
+	float: left;
+
+}
+
+#pages h1 a:hover{
+
+	text-decoration:underline;
+
+}
+
+
+
+h3, h4 {
+
+	padding-top: 5px;
+
+	padding-bottom: 15px;
+
+}
+
+#logo {
+
+	background: url('images/top.png') no-repeat;
+
+	height: 200px;
+
+	width: 800px;
+
+	margin-right: auto;
+
+	margin-left: auto;
+	margin-bottom: 20px;
+
+	}
+
+#tagline {
+
+	height: 20px;
+
+	text-align: right;
+
+	margin-top: -30px;
+
+	margin-right: 25px;
+
+	font-size: 10px;
+
+	font-weight: bold;
+
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+
+}
+
+div#pages {
+
+	height: 40px;
+
+	margin: 0px auto 0px;
+
+	width:800px;
+
+    background: #2d2d2d;
+
+
+
+}
+
+
+
+div#pages ul {
+
+	padding: 10px 0px 0px;
+
+	white-space: nowrap;
+
+	list-style-type: none;
+
+	margin: 0px;	
+
+}
+
+div#pages ul li {
+
+	float:right;
+
+}
+
+
+
+div#pages ul li.current_page_item a  {
+
+	text-decoration: underline;
+
+}
+
+div#pages ul li a {
+
+	display: block;
+
+	text-decoration: none;
+
+    border-left: 1px dotted #333;
+
+	font-size:12px;
+
+	padding:5px 10px 5px 10px;
+
+	text-transform: uppercase;
+
+	color: #999999;
+
+}
+
+div#pages ul li a:hover {
+
+	color: #333333;
+
+}
+
+
+
+
+
+#footer {
+
+	clear: both;
+
+	text-align: center;
+
+	height: 40px;
+
+	border-top-width: 1px;
+
+	border-top-style: dotted;
+
+	border-top-color: #666;
+
+	width: 774px;
+
+	padding: 0px;
+
+	margin-right: auto;
+
+	margin-left: auto;
+
+}
+
+#footer p{
+
+	padding:10px;
+
+	margin:0px;
+
+}
+
+
+
+.entry{
+
+	padding-top: 0px;
+
+	padding-bottom: 30px;
+
+	padding-left: 0px;
+
+	/*font-size: 0.80em;*/
+
+	line-height: 1.5em;
+
+}
+
+.firstpost {
+
+	margin-bottom:15px
+
+}
+
+h3.etitle, h3 {
+
+	padding-top: 0px;
+
+	padding-right: 0px;
+
+	padding-bottom: 0px;
+
+	margin-top: 0;
+
+	margin-right: 0;
+
+	margin-bottom: 5px;
+
+
+
+}
+
+h3.etitle a, h3.etitle a:visited, h3 a{
+
+	color: #fa7ff1;
+
+	border-style: none;
+
+	font-size: 18px;
+
+	text-transform: none;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+
+
+h3.etitle a:hover, h3 a:hover{
+
+text-decoration:underline;}
+
+.emeta{
+
+	height: 35px;
+
+	margin-top: 0;
+
+	color: #bbb;
+
+	border-top:dotted 1px #666;
+
+	padding-top:4px;
+
+	margin-bottom: 8px;
+	font: 11px Arial, Helvetica, Geneva, sans-serif;
+}
+
+.emeta a img{
+
+	border:none;
+
+}
+
+
+
+.ebody a {
+
+	height: 16px;
+
+	margin-top: 0;
+
+	font-size: 11px;
+
+	color: #CC66CC;
+	
+	
+
+}
+
+
+
+.ebody img {
+
+	padding: 4px;
+
+	border: 1px solid #DFDFDF;
+
+}
+
+.ebody ul {
+
+	margin-left: 20px;
+
+	padding-left:0px;
+
+	list-style-type: none;
+
+}
+
+.ebody ol{
+
+	margin-left:20px;
+
+	padding-left:0px;
+
+}
+
+.ebody ul li {
+
+	list-style:square;
+
+}
+
+.commentlink img {
+
+	border-top-style: none;
+
+	border-right-style: none;
+
+	border-bottom-style: none;
+
+	border-left-style: none;
+
+}
+
+
+
+h4, h3, h2, #cblock h2 {
+
+	margin: 0;
+
+	padding: 0px;
+
+	font-size: 11px;
+
+	font-style: normal;
+
+	font-weight: bold;
+
+	font-variant: normal;
+
+	color:#999;
+
+}
+
+h2{
+
+	margin-bottom: 10px;
+
+	font-size: 14px;
+
+}
+
+a, a:visited{
+
+	color: #f993ce;
+
+	text-decoration:none;
+}
+
+a:hover{
+
+	text-decoration:underline;
+
+}
+
+.ebody p{
+
+margin:8px 0;
+
+padding:0;
+
+}
+
+.ebody ul {
+
+	margin-left: 30px;
+
+	padding-left:0px;
+
+	list-style-type: none;
+
+}
+
+.ebody ol{
+
+	margin-left:30px;
+
+	padding-left:0px;
+
+}
+
+.ebody ul li {
+
+	list-style:square;
+
+}
+#sidebar{
+	background-color: #000;
+}
+
+#sidebar h2 {
+
+	color: #bfbfbf;
+
+	margin-top: 5px;
+
+	margin-right: 0px;
+
+	margin-bottom: 8px;
+
+	padding-top: 0px;
+
+	padding-right: 0px;
+
+	padding-bottom: 4px;
+
+	padding-left: 0px;
+
+	border-bottom: 1px dashed #cc7fa7;
+
+	font-size: 11px;
+
+	text-transform: uppercase;
+}
+
+#sidebar ul {
+
+	list-style: none;
+
+	margin: 0 0 18px 0;
+
+	padding: 0;
+
+}
+
+
+
+#sidebar ul li {
+
+	display: inline;
+
+	margin:0;
+
+	padding:0
+
+}
+
+#sidebar li{
+
+	list-style: none;
+}
+
+
+
+#sidebar ul li a {
+	border-bottom: 1px dotted #666;
+
+	color: #e368ff;
+
+	display: block;
+	text-decoration: none !important;
+
+	margin-left: 0px;
+
+	padding: 4px 0px 4px 25px;
+	
+	background-image: url('images/bull.gif');
+
+	background-repeat: no-repeat;
+
+	background-position: 10px 50%;
+}
+
+
+
+
+
+#sidebar ul li a:hover{
+
+	color: #CC00FF;
+
+	background-color: #3E2347;
+
+}
+
+
+ul.list-blogroll li a{
+
+border-bottom: 1px dotted #666;
+
+	color: #e368ff;
+
+	display: block;
+
+	text-decoration: none !important;
+
+	margin-left: 0px;
+
+	padding: 4px 0px 4px 25px;
+	
+	background-image: url('images/bull.gif');
+
+	background-repeat: no-repeat;
+
+	background-position: 10px 50%;
+
+}
+
+
+
+#searchdiv {
+
+	margin-top: 8px;
+
+	margin-bottom: 15px;
+
+}
+
+/*blogroll widget */
+ul.list-blogroll li{
+	background: url(img/arrow.gif) no-repeat !important;
+	padding-left: 22px !important;
+}
+
+/*meta  widget*/
+ul.list-meta li{
+	background: url(img/arrow.gif) no-repeat !important;
+	padding-left: 22px !important;
+}
+/*rss widget */
+ul.list-rss li{
+	background: url(img/arrow.gif) no-repeat !important;
+	padding-left: 22px !important;
+}
+/*category  widget */
+ul.list-cat li, li.bar_categories li{
+	background: url(img/arrow.gif) no-repeat !important;
+	padding-left: 22px !important;
+}
+/*recent  widget  */
+ul.list-rec li, li.bar_comments ul li {
+	background: url(img/arrow.gif) no-repeat !important;
+	padding-left: 22px !important;
+}
+/*archives widget */
+ul.list-archives li, li.bar_archives li{
+	background: url(img/arrow.gif) no-repeat !important;
+	padding-left: 22px !important;
+}
+/*pages widget */
+ul.list-page li, li.bar_pages li, li.bar_recent_entries li{
+	background: url(img/arrow.gif) no-repeat !important;
+	padding-left: 22px !important;
+}
+/*sub-pages widget */
+ul.list-page li ul li, li.bar_pages li ul li{
+	background: url(img/arrow.gif) no-repeat !important;
+	padding-left: 15px !important;
+}
+/*calendar bar widget */
+li.bar_calendar td {
+	padding: 1px 7px;
+}
+
+/*text bar */
+.textbar {
+	padding-top: 5px;
+}
+}
+#searchform br {
+	display: none;
+}
+#searchform #s {
+	width: 100px;
+	height: 22px;
+	padding: 4px 5px 0px 5px;
+	border: 1px dotted #cc7fa7;
+	background: #121605;
+	margin-right: 2px;
+	color: #cc7fa7;
+	font-weight: normal;
+}
+/* search form button - to specify button only use input[type="submit"] */
+#searchform input {
+	background: #121605;
+	border: 1px dotted #cc7fa7;
+	width: 25px;
+	height: 28px;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	color: #cc7fa7;
+	vertical-align: middle;
+}
+.clink {
+
+	background-image:url('.images/comments.gif');
+
+	background-repeat: no-repeat;
+
+	background-position: left center;
+
+	padding-left:16px
+
+}
+
+
+
+#cblock h2{
+
+	padding:2px;
+
+	margin-bottom:10px;
+
+	margin-top:30px;
+
+}
+
+#cblock {
+
+	float:left;
+
+	padding-top: 0px;
+
+	padding-bottom: 20px;
+
+
+
+	text-align: left;	/*font-size: 0.8em;*/
+
+}
+
+
+
+ol#commentlist {
+
+	margin-top:0px;
+
+	padding: 5px;
+
+	margin-left: 0px;
+
+	list-style-type: none;
+
+}
+
+.commentdate {
+
+	font-size:0.8em;
+
+	padding-left:5px;
+
+}
+
+#commentlist li  p{
+
+	margin-bottom: 8px;
+
+	line-height: 20px;
+
+	padding:0;
+
+}
+
+
+
+.commentname {
+
+	margin: 0;
+
+	padding: 5px;
+
+}
+
+
+
+.commentinfo{
+
+clear:both;
+
+}
+
+
+
+.commenttext {
+
+	clear: both;
+
+	margin-top: 0px;
+
+	margin-bottom: 10px;
+
+	padding: 10px;
+
+	width:450px;
+
+	background: #333333;
+
+}
+
+
+
+.commenttext-admin {
+
+	clear: both;
+
+	margin-top: 0px;
+
+	margin-bottom: 10px;
+
+	padding: 10px;
+
+	width:450px;
+
+	background: #333333;
+
+}
+
+
+
+#commentsformheader{
+
+	padding-left:0px;
+
+}
+
+
+
+#commentsform{
+
+	margin-top:0;
+
+	text-align:center;
+
+	padding-top: 0px;
+
+	padding-right: 0px;
+
+	padding-bottom: 0px;
+
+	padding-left: 0px;
+
+}
+
+
+
+#commentsform form{
+
+	text-align:left;
+
+	margin:0px;
+
+}
+
+
+
+#commentsform form textarea{
+
+	width:99%;
+
+}
+
+#commentsform p{
+
+	margin:5px;
+
+}
+
+p.comments_link  img{
+
+	margin: 0px;
+
+	padding: 0px;
+
+	border-top-style: none;
+
+	border-right-style: none;
+
+	border-bottom-style: none;
+
+	border-left-style: none;
+
+}
+
+blockquote{
+
+	font-style: italic;
+
+	color: #999999;
+
+}
+
+
+
+
+
+table{
+
+	margin:10px;
+
+}
+
+td, th{
+
+	padding:3px;
+
+	font-weight:normal;
+
+
+
+}
+
+.date {
+
+	float:left;
+
+	height:45px;
+
+	width:30px;
+
+margin-top:2px;
+
+	margin-right:10px;
+
+	padding:2px;
+
+	background:#333;
+
+border:1px dotted #000;
+
+	}
+
+.date p {
+
+	text-align:center;
+
+	color: #d02afa;
+
+	margin:0 0 0 0px;
+
+	text-transform:uppercase;
+
+	font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;
+
+	}
+
+.date span.day {
+
+	font-size: 23px;
+
+	display:block;
+
+color:#CCC;
+	font-style: italic;
+	}
+
+.date span.month {
+
+	font-size: 11px;
+
+	height:11px;
+
+	display:block;
+
+padding: 1px 2px 4px;
+
+border-bottom: 1px dotted #7f7f7f;
+
+    margin-bottom:4px;
+	border-top: 2px solid #7f7f7f;
+	font-weight: bold;
+	font-style: italic;
+}
+
+#rss{
+   width:50px;
+	
+	background-image: url(images/rss.gif);
+	display: block;
+	height: 70px;
+}
+#rss a{
+   width:50px;
+	height: 70px;
+	text-decoration: none;
+	display: block;
+	
+}

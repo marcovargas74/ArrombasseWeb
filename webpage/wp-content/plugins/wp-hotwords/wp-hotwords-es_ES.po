@@ -1,0 +1,363 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-HOTWords\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-10-30 22:03-0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Bernardo Bauer <bernabauer@bernabauer.com>\n"
+"Language-Team: HOTWords y bernabauer <bernabauer@bernabauer.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords\n"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:57
+msgid "Settings"
+msgstr "Configuración"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:148
+msgid "* Parece que você atualizou a versão nova sem desativar o plugin!! Por favor desative e re-ative."
+msgstr "* Parece que ha actualizado la nueva versión sin desactivar el plugin!! Por favor desactive y reactive."
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:152
+msgid "Você ainda não informou seu código de afiliados HOTWords!!!"
+msgstr "Todavía usted no ha informado su código de afiliado HOTWords!!!"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:152
+#, php-format
+msgid "Se você já tem uma conta informe <a href=\"%1$s\">aqui</a>, caso contrário <a href=\"%2$s\">crie uma agora</a>."
+msgstr "Si ya tiene una cuenta informe <a href=\"%1$s\">aqui</a>, de lo contrário <a href=\"%2$s\">crea ahora</a>."
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:157
+msgid "* Você precisa da versão 5 do PHP para este plugin funcionar corretamente. Sua versão : "
+msgstr "* Usted necesita la versión 5 de PHP para este plugin para funcionar correctamente. Su versión : "
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:161
+msgid "WP-HOTWords Alerta!"
+msgstr "WP-HOTWords Alerta!"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:334
+msgid "Sem anúncios"
+msgstr "Sin anuncios"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:337
+msgid "Cor diferenciada:"
+msgstr "Color diferente:"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:341
+msgid "Para usar a cor padrão, deixe a caixa de texto acima em branco."
+msgstr "Para que utilize el color estándar, deje la caja de texto arriba en blanco."
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:459
+msgid "Configuração WP-HOTWords"
+msgstr "Configuración WP-HOTWords"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:463
+msgid "Código de Afiliado"
+msgstr "Código de Afiliado"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:465
+msgid "Código :"
+msgstr "Código :"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:466
+msgid "O seu código de afiliado pode ser encontrado na página \"Configurar HOTWords\". A última caixa informa o \"scriptHOTWords\". Seu código de afiliado é o número após o texto 'show.jsp?id='."
+msgstr "Su código de afiliado puede ser encontrado en la pagina \"Configurar HOTWords\". La ultima caja informa lo \"scriptHOTWords\". Su código de afiliado es el número después del texto 'show.jsp?id='."
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:482
+msgid "Defina onde os anúncios deverão ser mostrados"
+msgstr "Determine donde los avisos podrán ser exhibidos"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:484
+msgid "No texto do artigo"
+msgstr "En el texto del articulo"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:485
+msgid "No texto dos comentários (*)"
+msgstr "En el texto de los comentarios (*)"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:486
+msgid "Na página com mais de um artigo (*)"
+msgstr "En la pagina con más de un articulo (*)"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:487
+msgid "Em páginas estáticas"
+msgstr "En las páginas estáticas"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:488
+msgid "Atenção"
+msgstr "Atención"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:488
+msgid "Se você quer seu blog validado no padrão <a href=\"%1$\">XHTML</a> você não deve habilitar a opção para mostrar anúncios nos comentários e em páginas com mais de um artigo. Páginas com mais de um artigo detectadas pelo WP-HOTWords são: Página principal, página de categoria, arquivo, resultado de pesquisa ou página de arquivo por minuto, hora, dia, mês ou ano."
+msgstr "Si quiere su Blog validado en el estándar<a href=\"%1$\">XHTML</a> No debe habilitar la opción para exhibir avisos en los comentarios y en paginas con más de un aviso. Pagina principal, pagina de categoría, archivo, resultado de pesquisa o pagina de archivos por minuto, hora, día, mes, año."
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:489
+msgid "Para validar seu blog, utilize o <a href=\"http://validator.w3.org/\">XHTML Validator</a>."
+msgstr "Para validar su blog, utiliza<a href=\"http://validator.w3.org/\">XHTML Validator</a>."
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:497
+msgid "Personalização do link HOTwords"
+msgstr "Personalización del link HOTWords"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:501
+msgid "Cor atual"
+msgstr "Color actual"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:501
+msgid "Nova cor"
+msgstr "Nueva color"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:505
+msgid "Você pode selecionar a cor padrão para os links de anúncios HOTWords aqui. Se você quiser, pode ainda trocar a cor dos links em um determinado artigo. Para fazê-lo, basta selecionar a cor na página de edição do artigo.<br /><br />Para usar cor padrão do HOTWords deixe a caixa abaixo vazia."
+msgstr "Acá Puede hacer la selección del color Standard para los links de los avisos HOTWords. Si quiere, puede cambiar el color de los links en un articulo definido. Para esto selecciona el color en la pagina de edición del articulo.<br /><br />Para utilizar el color Standard HOTWords deje la caja abajo vacía."
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:513
+msgid "Aparência do Rodapé"
+msgstr "Apariencia del Rodapié"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:515
+msgid "Você pode configurar como o rodapé irá aparecer no seu blog."
+msgstr "Puede configurar como el rodapié va a aparecer en su blog."
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:518
+msgid "Centralizado"
+msgstr "Centralizado"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:519
+msgid "Esquerda"
+msgstr "Izquierda"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:520
+msgid "Direita"
+msgstr "Derecha"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:522
+msgid "Alinhamento vertical"
+msgstr "Alineación vertical"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:523
+msgid "Nova linha antes do rodapé"
+msgstr "Nueva línea antes del rodapié"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:524
+msgid "Nova linha após o rodapé"
+msgstr "Nueva línea después del rodapié"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:525
+msgid "Novo parágrafo"
+msgstr "Nuevo párrafo"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:526
+msgid "Mesma linha"
+msgstr "Misma línea"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:535
+msgid "Relatórios por email"
+msgstr "Informes por mail"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:535
+msgid "(experimental)"
+msgstr "(beta)"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:537
+msgid "Informe o seu login no HOTWords"
+msgstr "Informa su loguin en el HOTWords"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:539
+msgid "Informe a sua senha no HOTWords"
+msgstr "Informe su contraseña en el HOTWords"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:540
+msgid "Se você quiser ser avisado de seus ganhos diariamente por email, preencha os campos de login e senha."
+msgstr "Si quiere recibir avisos de sus beneficios diariamente por mail, rellena los campos de login y contraseña."
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:549
+msgid "Próximo envio de relatório : "
+msgstr "Envio de el informe siguiente : "
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:551
+msgid "Seu fuso"
+msgstr "Su fuso"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:561
+msgid "Atualizar Opções"
+msgstr "Actualizar Opciones"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:565
+msgid "Sobre"
+msgstr "Sobre"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:566
+#, php-format
+msgid "O sistema <a href=\"%1$s\">HOTWords</a> publica anúncios contextuais dentro de textos de uma grande e qualificada rede de sites parceiros, o que possibilita ao anunciante comunicar-se com seu público-alvo de maneira inovadora, direta e segmentada."
+msgstr "El sistema <a href=\"%1$s\">HOTWords</a> publica avisos contextuales adentro de una grande y calificada red de sitios afiliados, lo que posibilita al anunciante comunicarse con su Publico de una manera innovadora, directa y segmentada."
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:567
+#, php-format
+msgid "Este plugin foi desenvolvido por <a href=\"%1$s\">Bernardo Bauer</a> para facilitar a vida do blogueiro que utiliza <a href=\"%2$s\">Wordpress</a>. Com ele os artigos recebem automaticamente os Divs necessários para que o programa funcione no seu blog e também inclui o script no rodapé. Com este plugin você não precisa mais editar o seu tema para que o HOTWords funcione."
+msgstr "Este plugin fue desarollado por <a href=\"%1$s\">Bernardo Bauer</a> para simplificar la vida del bloguero que utiliza <a href=\"%2$s\">Wordpress</a>. Con el plugin, los artículos reciben automáticamente los Divs necesarios para que el programa funcione en su blog y también incluye el script en el rodapié. Con este plugin no es más necesario corregir su tema para que HOTWords funcione."
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:568
+msgid "Ultra-pequeno FAQ:"
+msgstr "Ultra-pequeño FAQ:"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:570
+msgid "Não aparecem anúncios nos meus artigos. Verifiquei o código da página do artigo e os códigos do HOTwords não estão sendo incluídos. O que eu faço?"
+msgstr "No ha aparecido avisos en mis artículos. He verificado el código de la pagina del articulo, y los códigos do HOTWords no están inclusos. ¿ Qué debo hace ?"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:571
+msgid "O problema pode estar no tema do seu blog, garanta que existe a chamada \"wp_footer()\" no arquivo de tema \"Rodapé\" (ou footer, caso seu wordpress esteja em inglês) do seu tema ativo."
+msgstr "El problema puede estar en el tema de su blog, Certifiquese que exhista la llamada \"wp_footer()\" en el archivo del tema  \"Rodapé\" (o footer, caso su wordpress esté en inglés) de su tema activo."
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:572
+msgid "Preciso me cadastrar em algum lugar para usar este plugin?"
+msgstr "¿És necesario catastrarme en algun lugar para que pueda usar este plugin?"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:573
+msgid "Sim! é necessário ter uma conta ativa no sistema HOTWords para que o plugin funcione como esperado."
+msgstr "Si! Es necesario tener una cuenta activa en el sistema HOTWords para que el plugin funcione como lo esperado."
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:574
+msgid "Posso determinar que não sejam mostrados anúncios do HOTwords em alguns artigos?"
+msgstr "¿Puedo definir que no sean exhibidos avisos del HOTWords en algunos artículos?"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:575
+msgid "Se você quiser que algum artigo não receba anúncios do HOTwords, basta escolher a opção \"Não mostrar anúncios do HOTWords neste artigo\" na página de edição de artigos."
+msgstr "Si quiere que un articulo no tenga avisos HOTWords, seleccione la opción \"No exhibir avisos del HOTWords en este articulo \" na página de edición de artículos."
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:576
+msgid "Como posso otimizar meus ganhos com o HOTWords?"
+msgstr "¿Cómo puedo optimizar mis beneficios con HOTWords?"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:577
+#, php-format
+msgid "O primeiro passo é ter conteúdo relevante. O segundo é personalizar as cores de links do HOTWords para serem mais atraentes para o seu tema. Veja mais <a href=\"%1$s\">aqui</a>."
+msgstr "Primeramente, es necesario tener un contenido relevante. Después personalizar los colores de los links HOTWords para que sean más atractivos para su tema.Vea mas <a href=\"%1$s\">aqui</a>."
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:582
+#, php-format
+msgid "Acesse regularmente a <a href=\"%1$s\">página do plugin</a> para verificar se novas versões foram liberadas e instruções de como atualizar seu plugin."
+msgstr "Accesa regularmente la <a href=\"%1$s\">pagina del pluguin</a> para verificar si  hay nuevas versiones y instrucciones de cómo actualizar."
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:584
+msgid "O autor deste plugin aceita sua doação para manter este plugin. É uma ótima maneira de você demonstrar seu reconhecimento pelo trabalho realizado!"
+msgstr "El autor de este pluguin acepta donaciones para mantener el plugin. Es una óptima manera para demostrar reconocimiento por el trabajo realizado."
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:780
+msgid "*** Houve um erro coletando os dados."
+msgstr "*** Se produjo un error al recoger datos."
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:876
+msgid "Você está recebendo o relatório de ganhos que o plugin WP-HOTWords gera diariamente. Os dados deste relatório são extraídos da página de administração do sistema HOTWords. Se você tiver sugestões, por favor, entre em contato com o autor através do formulário de contato"
+msgstr "Está recibiendo el informe de beneficios que el plugin WP-HOTWords genera diariamente. Los datos de esto informe son sacados de la página de administración del sistema HOTWords. Cualquier sugerencia puede contactar el autor a través del formulario de contacto."
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:877
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:919
+msgid "Ganhos acumulados: R$"
+msgstr "Beneficios acumulados: $"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:878
+msgid "Diferença em relação à ontem: R$"
+msgstr "Diferencia con relación a ayer : $"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:879
+msgid "Palavras mostradas acumulado:"
+msgstr "Palabras que se muestran acumulado:"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:880
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:882
+msgid "Diferença em relação à ontem:"
+msgstr "Diferencia con relación a ayer:"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:881
+msgid "Visualização de anuncios acumulado:"
+msgstr "Ver los listados de acumulados:"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:883
+msgid "eCPM:"
+msgstr "eCPM:"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:884
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:921
+msgid "Valores podem sofrer alteração no fechamento do mês."
+msgstr "Valores que pueden sufrir alteraciones en el cierre del mes."
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:886
+msgid "Mensagem gerada automaticamente pelo plugin WP-HOTWords"
+msgstr "Mensaje generada automáticamente por el plugin WP-HOTWords."
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:888
+msgid "Relatório WP-HOTWords para"
+msgstr "Informes WP-HOTWords para"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:920
+msgid "Cliques acumulados:"
+msgstr "Clics acumulados:"
+
+#: /Applications/MAMP/htdocs/wp/wp-content/plugins/wp-hotwords/wp-hotwords.php:926
+msgid "nunca"
+msgstr "nunca"
+
+#~ msgid "Desinstalação"
+#~ msgstr "Desinstalación"
+
+#~ msgid "Remover Todas as opções"
+#~ msgstr "Eliminar todas las opciones"
+
+#~ msgid ""
+#~ "Ative esta opção para remover todas as configurações deste plugin na sua "
+#~ "desativação através da página de administração de plugins."
+#~ msgstr ""
+#~ "Active esta opción para eliminar todas las configuraciones de este plugin "
+#~ "en su desactivación por ir a conectar la administración."
+
+#~ msgid "Últimas do Fórum de suporte"
+#~ msgstr "Últimas do Fórum de suporte"
+
+#~ msgid ""
+#~ "Veja todos os tópicos do fórum de suporte para este plugin <a href=\"%1$s"
+#~ "\">aqui</a>."
+#~ msgstr ""
+#~ "Veja todos los tópicos del fórum de suporte para este plugin <a href=\"%1"
+#~ "$s\">aqui</a>."
+
+#~ msgid "por"
+#~ msgstr "por"
+
+#~ msgid "Escolha uma Cor"
+#~ msgstr "Elija un color"
+
+#, fuzzy
+#~ msgid ""
+#~ "Este blog é monetizado pelo <a href=\"http://www.sexywords.com.br/\" rel="
+#~ "\"nofollow\">SexyWords</a> utilizando o plugin"
+#~ msgstr ""
+#~ "Este blog es monetizado por <a href=\"http://www.hotwords.com.br\" rel="
+#~ "\"nofollow\">HOTWords</a> usando el plugin"
+
+#~ msgid "Escolher"
+#~ msgstr "Elegir"
+
+#~ msgid "Como faço para ter mais de um site cadastrado no HOTWords?"
+#~ msgstr " ¿Cómo hago para tener más de un sitio registrado en el HOTWords?"
+
+#~ msgid ""
+#~ "Você deve cadastrar seu novo site na página de cadastro de parceiros "
+#~ "HOTWords com o mesmo e-mail que você já utiliza em sua conta atual. Você "
+#~ "poderá acessar os relatórios de todos seus sites com o mesmo login e "
+#~ "senha porém os pagamentos não serão somados, cada site será pago "
+#~ "individualmente.<br />\n"
+#~ "\t\tInformação extraída do FAQ do HOTWords disponível <a href=\"%1$s"
+#~ "\">aqui</a>."
+#~ msgstr ""
+#~ "Tiene que hacer el registro del nuevo sitio en la página de afiliados "
+#~ "HOTWords con el mismo mail que ya utiliza en su cuenta actual. Así puede "
+#~ "tener acceso a los informes de los sitios con el mismo loguin.<br />\n"
+#~ "\t\tInformação extraída do FAQ do HOTWords disponível <a href=\"%1$s"
+#~ "\">aqui</a>."
